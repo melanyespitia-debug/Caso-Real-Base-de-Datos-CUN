@@ -41,18 +41,4 @@ Proyecto académico en Python y SQLite para registrar estudiantes, docentes y ti
 
 Estados permitidos para un ticket: `ABIERTO`, `EN PROCESO` y `CERRADO`.
 
-## Publicación en GitHub
-Cree un repositorio público en GitHub y suba `main.py`, `README.md` y, si el docente lo solicita, `cun_sistema.db`. En GitHub, pulse **Add file → Upload files** o use Git desde la terminal.
 
-Ejemplo de comandos Git:
-
-```bash
-git init
-git add main.py README.md cun_sistema.db
-git commit -m "Entrega sistema CUN con POO y SQLite"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/sistema-cun-poo.git
-git push -u origin main
-```
-
-Reemplace `TU-USUARIO` por su usuario real de GitHub y ajuste la URL al repositorio que haya creado.
